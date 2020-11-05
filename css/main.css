@@ -26,7 +26,7 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-family: 'Demian Sakha', serif;
-	background-color: #fdf5e6;
+	background-color: #fffff2;
 	margin: 0px auto;
 	padding: 0px;
 }
@@ -393,10 +393,10 @@ h4 {
 /*//////////////////////////////////////////////////////////////////////////////*/
 .bludo {
     width: 100%;
-    height: 400px;
+    height: 100%;
     background-color: #e7b279;
     margin-top: 30px;
-    padding: 30px 0;
+    padding: 20px 0 120px 0;
     margin-left: auto;
     margin-right: auto;
 }
@@ -805,6 +805,85 @@ h4 {
     margin-left: 10px;
 }
 /*******************************************************/
+@media screen and (max-width: 1191px){
+    .bludo {
+        padding-bottom: 50px;
+    }
+    .bludo .container img {
+        max-width: 400px;
+        height: 200px;
+    }
+    .textbludo p {
+        margin: 30px 20px;
+    }
+    .textbludo a {
+        margin: 5px 20px;
+    }
+    .recept {
+        max-width: 650px;
+        height: 300px;
+    }
+    .foto {
+        max-width: 280px;
+        max-height: 280px;
+        margin: 10px 20px;
+    }
+    .textr h6 {
+        padding-top: 35px;
+    }
+    .contact {
+        text-align: center;
+        margin: 30px 220px;
+    }
+    .suorat img {
+        display: block;
+        margin: 25px 80px;
+    }
+    .textsuorat {
+        margin: 0 80px;
+    }
+    .textsuorat p {
+        margin: 10px 0px;
+    }
+    .sup img {
+        display: block;
+        margin: 25px 80px;
+    }
+    .textsup {
+        margin: 0 80px;
+    }
+    .textsup p {
+        margin: 10px 0px;
+    }
+    .syrmyaco img {
+        display: block;
+        margin: 25px 80px;
+    }
+    .sobo img {
+        display: block;
+        margin: 25px 80px;
+    }
+    .martyshka img {
+        display: block;
+        margin: 25px 80px;
+    }
+    .khaan img {
+        display: block;
+        margin: 25px 80px;
+    }
+    .khaan1 img {
+        width: 550px;
+        height: 380px;
+        margin: auto;
+        border-radius: 9px;
+    }
+    .textkishki {
+        margin: 0 80px;
+    }
+    .textkishki p {
+        margin: 10px 0px;
+    }
+}
 @media screen and (max-width: 767px){
     .search-box{
         display: flex;
@@ -858,22 +937,131 @@ h4 {
         margin-right: 20px;
         font-size: 15px;
     }
-}
-@media screen and (max-width: 1191px){
-    .bludo {
-        padding-bottom: 50px;
+    .bludo .container {
+        display: block;
+        margin: 0;
     }
     .bludo .container img {
-        max-width: 400px;
-        height: 200px;
+        display: block;
+        width: 260px;
+        height: 160px;
+        margin: 5px;
     }
-    .textbludo p {
-        margin: 30px 20px;
+    .recept {
+        width: 300px;
+        height: 630px;
     }
-    .textbludo a {
-        margin: 5px 20px;
+    .foto {
+        display: block;
+        margin: 10px;
     }
-    .recept img {
+    .textbludo h2 {
+        padding-top: 30px;
+}
+    .textr {
+        margin: 25px;
+    }
+    .otzyvy {
+        max-width: 300px;
+        height: 150px;
+    }
+    .profile {
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        border-radius: 3px;
+        float: left;
+    }
+    .textotz h6 {
+        padding-top: 20px;
+        margin-left: 100px;
+    }
+    .textotz p {
+        margin-left: 100px;
+    }
+    .textotz h2 {
+        margin-left: 100px;
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .about {
+        margin: 10px 50px;
+    }
+    .contact {
+        margin: 30px 30px 50px 30px;
+    }
+    .contactT {
+        font-size: 20px;
+    }
+    .suorat img {
+        display: block;
+        margin: 10px 25px;
+        max-width: 270px;
+        height: 175px;
+    }
+    .textsuorat {
+        margin: 0 25px;
+    }
+    .textsuorat p {
+        margin: 10px 0px;
+        font-size: 15px;
+    }
+    .sup img {
+        display: block;
+        margin: 10px 25px;
+        max-width: 270px;
+        height: 175px;
+    }
+    .textsup {
+        margin: 0 25px;
+    }
+    .textsup p {
+        margin: 10px 0px;
+        font-size: 15px;
+    }
+    .syrmyaco img {
+        display: block;
+        margin: 10px 25px;
+        max-width: 270px;
+        height: 175px;
+    }
+    .sobo img {
+        display: block;
+        margin: 10px 25px;
+        max-width: 270px;
+        height: 175px;
+    }
+    .martyshka img {
+        display: block;
+        margin: 10px 25px;
+        max-width: 270px;
+        height: 175px;
+    }
+    .khaan img {
+        display: block;
+        margin: 10px 25px;
+        max-width: 270px;
+        height: 175px;
         
+    }
+    .texxt {
+        font-size: 45px;
+    }
+    .textkishki {
+        margin: 0 25px;
+    }
+    .textkishki img{
+        display: block;
+        margin: auto;
+    }
+    .textkishki p {
+        margin: 10px 0px;
+        font-size: 15px;
+    }
+    .khaan1 img {
+        width: 240px;
+        height: 150px;
+        margin: auto;
+        border-radius: 9px;
     }
 }
