@@ -1,0 +1,18 @@
+#Yandex
+User-agent: Yandex
+Disallow:
+Host: https://github.com
+
+#Googlebot
+User-agent: Googlebot
+Disallow:
+Host: https://github.com
+
+#*
+User-agent: *
+Disallow:
+Host: https://github.com
+
+Sitemap: https://antongorokhovisip.github.io/aschyt_new/sitemap.xml
+
+Host: https://antongorokhovisip.github.io/aschyt_new
